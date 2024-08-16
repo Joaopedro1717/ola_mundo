@@ -1,3 +1,6 @@
+import LE01.LE_011
+import LE01.LE_012
+
 /*
 
 val valor1: Int = 100
@@ -61,14 +64,55 @@ fun main4() {
     }
 }
 */
+
+//fun main1() {
+//    println("Informe um número " )
+//
+//    val input = readln()!!.toInt()
+//
+//    if (input > 10){
+//        println("Número maior que 10")
+//    } else ("Número maior ou igual a 10")
+//}
+
+//fun main(){
+//
+//    val nomes = arrayOf("Ana", "Pedro", "João")
+//
+//    for(n in nomes) {
+//        println("Nome: $n")
+//    }
+//
+//    for(i in nomes.indices) {
+//        println("indice: $i")
+//    }
+//
+//    for((i, e) in nomes.withIndex()) {
+//        println("${i + 1}. $e")
+//    }
+
+//fun main() {
+//    repeat(3){
+//        println("Repeat")
+//    }
+//}
+
+//fun main() {
+//    var bikes = 0;
+//    while(bikes < 50){
+//        bikes++
+//        println("Contador $bikes")
+//    }
+//    var vlr = 100
+//    do{
+//        println("Valor: $vlr")
+//    }while(vlr < 50)
+//}
+
+
+
 fun main() {
-    println("Informe um número " )
-
-    val input = readLine()
-
-    if (input > 10){
-        println("Número maior que 10")
-    } else ("Número maior ou igual a 10")
+    LE_012()
 }
 
 
@@ -76,5 +120,5 @@ fun main() {
 
 
 
-//#1
+
 
