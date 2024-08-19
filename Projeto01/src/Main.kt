@@ -1,6 +1,7 @@
-import LE01.LE_011
-import LE01.LE_012
-import LE01.LE_013
+import LE01.*
+import LE02.LE2_01
+import LE02.LE2_02
+import LE02.LE2_03
 
 /*
 
@@ -113,10 +114,8 @@ fun main4() {
 
 
 fun main() {
-    LE_013()
+    LE2_03()
 }
-
-
 
 
 
